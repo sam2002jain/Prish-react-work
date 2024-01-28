@@ -22,10 +22,10 @@ const Home = () => {
               small business
             </h3>
             <p>
-              Our team will provide you with the confidence that comes from our
-              complete suit business survoices and other business surveces you
-              need most. if plkay roll is weighting you down. lets talk about
-              proprietary and bookkeeping software that can help steamline
+              Our team will provide you with the confidence that comes from
+              our complete suit business survoices and other business surveces
+              you need most. if plkay roll is weighting you down. lets talk
+              about proprietary and bookkeeping software that can help steamline
               playroll and take the worry off your shoulder. Quickbook question?
               our experts can help you get the most out of your software and
               resolve those naggiong issue.
@@ -35,7 +35,7 @@ const Home = () => {
             </button>
           </div>
           <div className="image">
-            <img src={Img3} />
+            <img src={Img3} alt="img" />
           </div>
         </div>
       </section>
