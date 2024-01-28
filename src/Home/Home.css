@@ -1,0 +1,180 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 60px;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+.para {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+}
+.heading {
+  color: black;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-shadow: 2px 2px 5px rgb(176, 175, 175);
+}
+.intro {
+  color: rgb(67, 67, 67);
+  font-size: 24px;
+}
+.para p {
+  color: rgb(99, 98, 98);
+  font-size: 18px;
+}
+.btn-2 {
+  width: 30%;
+  padding: 11px 18px;
+  font-size: 19px;
+  font-weight: 500;
+  color: rgb(91, 90, 90);
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(159, 156, 156);
+  cursor: pointer;
+}
+.btn-2:hover {
+  background-color: rgb(205, 204, 204);
+  border: 1px solid rgb(51, 50, 50);
+}
+.image img {
+  width: 600px;
+  border-radius: 2px;
+  box-shadow: 1px 4px 10px rgb(160, 160, 160);
+}
+
+/* core values  styling */
+
+.sec-2 .main-heading {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  color: rgb(43, 43, 43);
+  margin-top: 4rem;
+  text-shadow: 2px 2px 5px rgb(176, 175, 175);
+}
+.team {
+  height: 120px;
+  width: 100px;
+  line-height: 110px;
+}
+.value-list .heading-2 {
+  font-size: 30px;
+  color: rgb(67, 67, 67);
+}
+.value-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+  margin-top: 5rem;
+  overflow-x: auto;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.value-list p {
+  font-size: 16px;
+  color: rgb(99, 98, 98);
+}
+
+/* styling the business info box section 4*/
+
+.tital-heading {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  color: rgb(67, 67, 67);
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+  text-shadow: 2px 2px 5px rgb(176, 175, 175);
+}
+.box-content p {
+  font-size: 18px;
+  color: rgb(78, 78, 78);
+  text-align: start;
+}
+.info-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+}
+.info-box::before {
+  content: "";
+  background-image: url("../Images//box-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.box {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* styling the team card section 3*/
+
+.card-sec h1 {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  font-size: 40px;
+  color: rgb(67, 67, 67);
+  text-shadow: 2px 2px 5px rgb(176, 175, 175);
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 32%;
+  height: 10%;
+  height: fit-content;
+  text-align: center;
+  margin-bottom: 4rem;
+  background-color: rgb(249, 247, 247);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-radius: 25px;
+  padding: 2rem;
+}
+
+.card:hover {
+  border: 1px solid rgb(152, 150, 150);
+}
+.card-img img {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+}
+.card-info .card-para {
+  color: rgb(78, 78, 78);
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  text-align: start;
+}
+.card-info .card-heading {
+  font-size: 28px;
+  color: rgb(67, 67, 67);
+  cursor: pointer;
+}
