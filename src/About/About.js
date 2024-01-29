@@ -3,9 +3,15 @@ import "../About/about.css";
 
 const About = () => {
   return (
-    <div>
-      <h2>about page</h2>
-    </div>
+    <>
+      <section className="sec-1">
+        <div className="headline-box">
+          <span className="box-animation">
+            <div>empowering business</div>
+          </span>
+        </div>
+      </section>
+    </>
   );
 };
 
