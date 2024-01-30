@@ -1,4 +1,6 @@
-.headline-box {
+/* styling the headline ticker */
+
+/*.headline-box {
   width: 100%;
   float: left;
   margin: 0px auto 0 auto;
@@ -8,6 +10,7 @@
   padding: 0;
   position: relative;
   background: #0a446c;
+  margin-bottom: 4rem;
 }
 .box-animation {
   color: #000;
@@ -35,4 +38,122 @@
   display: inline-block;
   letter-spacing: 1px;
   text-transform: uppercase;
+}*/
+
+/* styling the section 2 company information */
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+.row-info h1 {
+  font-size: 48px;
+  color: rgb(43, 43, 43);
+  text-shadow: 2px 2px 5px rgb(176, 175, 175);
+  font-weight: 600;
+}
+.sec2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 6rem;
+  position: relative;
+}
+.row-img img {
+  border-radius: 10px;
+  box-shadow: rgba(82, 82, 83, 0.2) 0px 7px 29px 0px;
+}
+
+.text {
+  text-align: start;
+  font-size: 18px;
+  word-spacing: 3px;
+  color: rgb(99, 98, 98);
+  line-break: 5px;
+  position: relative;
+  transition: all 500ms ease;
+}
+
+.sec3 {
+  margin-top: 4rem;
+  padding: 0 6rem;
+}
+.container-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-about h1 {
+  font-size: 48px;
+  color: rgb(43, 43, 43);
+  text-shadow: 2px 2px 5px rgb(176, 175, 175);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.key-points-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-top: 5px;
+}
+.text-sec3 {
+  font-size: 19px;
+  color: rgb(53, 53, 53);
+  font-weight: 500;
+  transition: all 500ms ease;
+}
+
+/* styling the section 4 mision and vision content */
+
+.statement {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.statement h1 {
+  font-size: 45px;
+  color: rgb(43, 43, 43);
+  text-shadow: 2px 2px 5px rgb(176, 175, 175);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.statement p {
+  font-size: 19px;
+  color: rgb(53, 53, 53);
+  font-weight: 500;
+  transition: all 500ms ease;
+}
+.sec4 {
+  margin-top: 4rem;
+  padding: 0 6rem;
+}
+.sec4-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+  margin-top: 1rem;
+}
+.sec4-content h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(53, 53, 53);
+}
+.sec4-content p {
+  font-size: 18px;
+  line-height: 30px;
+  color: rgb(99, 98, 98);
+  line-break: 5px;
+  position: relative;
+  transition: all 500ms ease;
+  width: 50%;
 }
