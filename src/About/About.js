@@ -10,7 +10,24 @@ const About = () => {
       <section className="sec1">
         <div className="headline-box">
           <span className="box-animation">
-            <div>empowering business</div>
+            <div>MORE THAN JUST ADVICE</div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+
+            <div>Prish Auditords, has committed it's experirence ans skill to provide high quality professional surveces to the clients with the promise of keeping up highest standard of ethics and integrity.Navigate financial clarity with Prish Auditors! Our expert team offers precision in auditing, bookkeeping, and taxation. Trust us to illuminate your path to financial integrity.</div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div>MORE THAN JUST ADVICE</div>
           </span>
         </div>
       </section>

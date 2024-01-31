@@ -1,6 +1,6 @@
 /* styling the headline ticker */
 
-/*.headline-box {
+.headline-box {
   width: 100%;
   float: left;
   margin: 0px auto 0 auto;
@@ -18,7 +18,7 @@
   font-weight: 600;
   padding: 8px 0 8px 100%;
   display: inline-block;
-  animation: headline 30s infinite linear;
+  animation: headline 60s infinite linear;
 }
 @keyframes headline {
   0% {
@@ -38,7 +38,7 @@
   display: inline-block;
   letter-spacing: 1px;
   text-transform: uppercase;
-}*/
+}
 
 /* styling the section 2 company information */
 
