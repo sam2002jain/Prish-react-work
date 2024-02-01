@@ -38,7 +38,7 @@
   cursor: pointer;
 }
 .btn-2:hover {
-  background-color: rgb(26, 84, 154);
+  background-color: #0a446c;
   border: 1px solid rgb(51, 50, 50);
 }
 .image img {
@@ -47,7 +47,7 @@
   box-shadow: 1px 4px 10px rgb(160, 160, 160);
 }
 
-/* core values  styling */
+/* core values  styling section 2 */
 
 .sec-2 .main-heading {
   text-align: center;
@@ -57,6 +57,9 @@
   margin-top: 4rem;
   text-shadow: 2px 2px 5px rgb(176, 175, 175);
 }
+.item span {
+  color: #0a446c;
+}
 .team {
   height: 120px;
   width: 100px;
@@ -64,7 +67,7 @@
 }
 .value-list .heading-2 {
   font-size: 30px;
-  color: rgb(21, 70, 95);
+  color: rgb(50, 50, 50);
 }
 .value-list {
   display: flex;
@@ -93,6 +96,7 @@
   margin-bottom: 4rem;
   text-shadow: 2px 2px 5px rgb(176, 175, 175);
 }
+
 .box-content p {
   font-size: 18px;
   color: rgb(78, 78, 78);

@@ -132,7 +132,7 @@ const About = () => {
           </div>
           <div className="sec4-info">
             <div className="icon">
-              <FiSend size={40} />
+              <FiSend size={40} color="#0a446c" />
             </div>
             <div className="sec4-content">
               <h1>Vision & Mission</h1>
