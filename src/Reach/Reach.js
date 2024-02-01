@@ -23,7 +23,7 @@ const Reach = () => {
 
             <div className="contact-box">
               <div className="contact-box-icons">
-                <IoCall size={50} />
+                <IoCall size={55} />
               </div>
               <div className="more-info">
                 <p>Call Us at (+971 56 724 4122)</p>
@@ -32,7 +32,7 @@ const Reach = () => {
 
             <div className="contact-box">
               <div className="contact-box-icons">
-                <IoMail size={50} />
+                <IoMail size={55} />
               </div>
               <div className="more-info">
                 <p>prishaudit@godaddy.com</p>
