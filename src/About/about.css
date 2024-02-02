@@ -50,8 +50,8 @@
   gap: 80px;
 }
 .row-info h1 {
-  font-size: 48px;
-  color: rgb(43, 43, 43);
+  font-size: 44px;
+  color: rgb(32, 106, 143);
   text-shadow: 2px 2px 5px rgb(176, 175, 175);
   font-weight: 600;
 }
@@ -78,6 +78,7 @@
   transition: all 500ms ease;
 }
 
+/* styling the section 3 */
 .sec3 {
   margin-top: 4rem;
   padding: 0 6rem;
@@ -89,8 +90,8 @@
 }
 
 .container-about h1 {
-  font-size: 48px;
-  color: rgb(43, 43, 43);
+  font-size: 40px;
+  color: rgb(32, 106, 143);
   text-shadow: 2px 2px 5px rgb(176, 175, 175);
   font-weight: 600;
   text-transform: uppercase;
@@ -118,8 +119,8 @@
   align-items: center;
 }
 .statement h1 {
-  font-size: 45px;
-  color: rgb(43, 43, 43);
+  font-size: 40px;
+  color: rgb(32, 106, 143);
   text-shadow: 2px 2px 5px rgb(176, 175, 175);
   font-weight: 600;
   text-transform: uppercase;
@@ -146,7 +147,7 @@
 .sec4-content h1 {
   font-size: 30px;
   font-weight: 600;
-  color: rgb(53, 53, 53);
+  color: rgb(21, 70, 95);
 }
 .sec4-content p {
   font-size: 18px;

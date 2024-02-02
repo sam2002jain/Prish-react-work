@@ -82,7 +82,7 @@ const About = () => {
       <section className="sec3">
         <div className="container-about">
           <div className="-sec3-heading">
-            <h1>why prish auditord.</h1>
+            <h1>why prish auditors.</h1>
           </div>
           <div className="sec3-para">
             <p className="text-sec3">
@@ -142,14 +142,14 @@ const About = () => {
           <div className="statement">
             <h1>vision & mission statement</h1>
             <p>
-              Prish Auditords, has committed it's experirence ans skill to
+              Prish Auditors, has committed it's experirence ans skill to
               provide high quality professional surveces to the clients with the
               promise of keeping up highest standard of ethics and integrity
             </p>
           </div>
           <div className="sec4-info">
             <div className="icon">
-              <FiSend size={40} />
+              <FiSend size={40} color="#0a446c" />
             </div>
             <div className="sec4-content">
               <h1>Vision & Mission</h1>
