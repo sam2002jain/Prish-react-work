@@ -8,8 +8,12 @@ const Nav = () => {
   const navigate = useNavigate();
   return (
     <div className="container">
-      
       <div className="nav-content">
+        <div className="nav">
+          <ul className="list">
+            <Link to="/audit">Audit</Link>
+          </ul>
+        </div>
         <div className="logo">
           <img src={logosvg} alt="logo" />
         </div>

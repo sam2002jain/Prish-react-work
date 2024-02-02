@@ -7,6 +7,8 @@ import Blog from ".//Blog/Blog";
 import Reach from ".//Reach/Reach";
 import Nav from ".//Components/Nav";
 import Footer from ".//Components/Footer";
+import Audit from ".//Audit/Audit";
+
 const App = () => {
   return (
     <div>
@@ -18,6 +20,7 @@ const App = () => {
           <Route path="/team" element={<Team />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/reach" element={<Reach />} />
+          <Route path="/audit" element={<Audit />} />
         </Routes>
         <Footer />
       </BrowserRouter>
