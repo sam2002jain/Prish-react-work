@@ -1,0 +1,47 @@
+.audit-info-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  gap: 20px;
+}
+.info-paragraphs {
+  width: 55%;
+  overflow: hidden;
+}
+.audit-img img {
+  border-radius: 4px;
+  box-shadow: 1px 4px 10px rgb(160, 160, 160);
+}
+.info-paragraphs .text {
+  position: relative;
+  font-size: 19px;
+  font-weight: 400;
+  color: rgb(99, 98, 98);
+}
+
+.audit-key-points-heading h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  font-size: 30px;
+  color: rgb(32, 106, 143);
+  text-shadow: 2px 2px 5px rgb(176, 175, 175);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.audit-key-points-info {
+  display: flex;
+  flex-direction: row;
+  padding-left: 6rem;
+  align-items: center;
+  gap: 10px;
+}
+
+.audit-key-points-info .text {
+  font-size: 19px;
+  font-weight: 400;
+  color: rgb(99, 98, 98);
+}

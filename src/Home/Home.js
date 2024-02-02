@@ -126,7 +126,7 @@ const Home = () => {
         </div>
       </section>
 
-      <setion className="sec-4">
+      <section className="sec-4">
         <h2 className="tital-heading">Here we do business</h2>
         <div className="info-box">
           <div className="box">
@@ -174,7 +174,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </setion>
+      </section>
     </>
   );
 };
