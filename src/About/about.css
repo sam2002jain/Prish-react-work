@@ -18,11 +18,11 @@
   font-weight: 600;
   padding: 8px 0 8px 100%;
   display: inline-block;
-  animation: headline 8s infinite linear;
+  animation: headline 15s infinite linear;
 }
 @keyframes headline {
   0% {
-    transform: translateX(100%);
+    transform: translateX(10%);
   }
   100% {
     transform: translateX(-100%);

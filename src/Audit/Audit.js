@@ -28,15 +28,6 @@ const Audit = () => {
               industries.
             </p>
             <p className="text">
-              At Prish Auditors, we take pride in our unwavering commitment to
-              upholding the highest standards of integrity, objectivity, and
-              independence. These principles form the bedrock of our robust
-              quality control measures, which consistently surpass industry
-              requirements. Our relentless pursuit of quality has positioned us
-              as a premier provider of assurance services, trusted by numerous
-              industries.
-            </p>
-            <p className="text">
               Choose Prish Auditors for a steadfast partner in navigating the
               complexities of the business world. Our commitment to excellence
               ensures that your organization receives the highest level of
@@ -51,9 +42,14 @@ const Audit = () => {
         <div className="more-audit-info">
           <div className="audit-key-points-heading">
             <h1>
-              Area of specialization include : Audits - External and Internal
-              audits
+              Area of specialization include : 
             </h1>
+          </div>
+          <div className="audit-key-points-info">
+            <span className="icon-span">
+              <IoCheckmark size={30} color="#0a446c" />
+            </span>
+            <p className="text">Audits - External and Internal audits</p>
           </div>
           <div className="audit-key-points-info">
             <span className="icon-span">
