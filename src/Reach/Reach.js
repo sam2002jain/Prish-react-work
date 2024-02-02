@@ -26,7 +26,7 @@ const Reach = () => {
                 <IoCall size={55} />
               </div>
               <div className="more-info">
-                <p>Call Us at (+971 56 724 4122)</p>
+                <p>Call Us at (+971 567244122)</p>
               </div>
             </div>
 
@@ -35,7 +35,7 @@ const Reach = () => {
                 <IoMail size={55} />
               </div>
               <div className="more-info">
-                <p>prishaudit@godaddy.com</p>
+                <p>prishauditors@outlook.com</p>
               </div>
             </div>
           </div>

@@ -10,7 +10,7 @@ const About = () => {
       <section className="sec1">
         <div className="headline-box">
           <span className="box-animation">
-            <div>empowering business</div>
+            <div>MORE THAN JUST ADVICE</div>
           </span>
         </div>
       </section>
