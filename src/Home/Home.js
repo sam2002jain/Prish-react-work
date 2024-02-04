@@ -143,7 +143,7 @@ const Home = () => {
               <IoLocationSharp size={70} />
             </div>
             <div className="box-content">
-              <p>Servicing in Middle East </p>
+              <p>Servicing in Middle East and India </p>
             </div>
           </div>
 
@@ -152,7 +152,7 @@ const Home = () => {
               <IoCall size={70} />
             </div>
             <div className="box-content">
-              <p>Call Us at (+971 56 724 4122)</p>
+              <p>Call Us at (+971 567244122)</p>
             </div>
           </div>
 
@@ -161,7 +161,7 @@ const Home = () => {
               <IoMail size={70} />
             </div>
             <div className="box-content">
-              <p>prishaudit@godaddy.com</p>
+              <p>marketing@prishauditors.com</p>
             </div>
           </div>
 
@@ -170,7 +170,7 @@ const Home = () => {
               <FaPeopleGroup size={70} />
             </div>
             <div className="box-content">
-              <p>1,000+ Clients Globally</p>
+              <p>100+ Clients Globally</p>
             </div>
           </div>
         </div>
