@@ -43,7 +43,7 @@ const Reach = () => {
           {/*contact us form*/}
 
           <div className="reach-us-form">
-            <form className="form">
+            <form className="form" method="post" action="#">
               <div className="form-input">
                 <input
                   className="contact-form-name  input-field"

@@ -69,12 +69,9 @@
   padding: 12px 29px;
   background-color: #0a446c;
   color: #fff;
-  font-size: 16px;
-  border-radius: 6px;
+  font-size: 17px;
+  border-radius: 0.25em;
   cursor: pointer;
   margin-top: 10px;
   border: none;
-}
-.submit-button:hover {
-  background-color: rgb(35, 155, 215);
 }

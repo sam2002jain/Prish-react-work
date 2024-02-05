@@ -11,6 +11,7 @@ const Nav = () => {
       <div className="nav-content">
         <div className="nav">
           <ul className="list">
+            <Link to="/taxation">Taxation</Link>
             <Link to="/audit">Audit</Link>
           </ul>
         </div>

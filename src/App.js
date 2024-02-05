@@ -8,6 +8,7 @@ import Reach from ".//Reach/Reach";
 import Nav from ".//Components/Nav";
 import Footer from ".//Components/Footer";
 import Audit from ".//Audit/Audit";
+import Taxation from ".//Taxation/Taxation";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/blog" element={<Blog />} />
           <Route path="/reach" element={<Reach />} />
           <Route path="/audit" element={<Audit />} />
+          <Route path="/taxation" element={<Taxation />} />
         </Routes>
         <Footer />
       </BrowserRouter>
