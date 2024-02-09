@@ -183,3 +183,98 @@
   color: rgb(21, 70, 95);
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .para {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .heading {
+    font-size: 35px;
+  }
+  .intro {
+    font-size: 20px;
+  }
+  .para p {
+    font-size: 16px;
+  }
+  .btn-2 {
+    width: 50%;
+    padding: 11px 18px;
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(35, 155, 215);
+    cursor: pointer;
+    
+  }
+  .btn-2:hover {
+    background-color: #0a446c;
+    border: 1px solid rgb(51, 50, 50);
+  }
+  .image img {
+    width: 100%;
+    border-radius: 2px;
+    box-shadow: 1px 4px 10px rgb(160, 160, 160);
+    margin-top: 2rem;
+  }
+  .sec-2 .main-heading {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(32, 106, 143);
+    margin-top: 4rem;
+    text-shadow: 2px 2px 5px rgb(176, 175, 175);
+  }
+  .value-list .heading-2 {
+    font-size: 25px;
+    color: rgb(50, 50, 50);
+  }
+  .value-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    margin-top: 5rem;
+    overflow-x: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .value-list p {
+    font-size: 16px;
+    color: rgb(99, 98, 98);
+  }
+  .tital-heading {
+    text-align: center
+  
+  }
+  .card{
+    width: 50%;
+    margin-left: 2rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+    background-color: #fafafa;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  .sec-4 .box-content p {
+    font-size: 10px;
+    padding: 0% 5% 0% 5%;
+    color: rgb(78, 78, 78);
+    text-align: center;
+  }
+}
