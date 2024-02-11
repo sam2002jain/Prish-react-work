@@ -9,6 +9,7 @@ import Nav from ".//Components/Header";
 import Footer from ".//Components/Footer";
 import Audit from ".//Audit/Audit";
 import Taxation from ".//Taxation/Taxation";
+import Bookkeeping from ".//Bookkeeping/Bookkeeping";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
           <Route path="/reach" element={<Reach />} />
           <Route path="/audit" element={<Audit />} />
           <Route path="/taxation" element={<Taxation />} />
+          <Route path="/bookkeeping" element={<Bookkeeping />} />
         </Routes>
         <Footer />
       </BrowserRouter>
