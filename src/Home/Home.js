@@ -25,7 +25,7 @@ const Home = () => {
             <h1 className="heading">Who are we</h1>
             <h3 className="intro">
               A small accounting and bookkeeping firm provinding full survive to
-              small business
+              small business.
             </h3>
             <p>
               Our team will provide you with the confidence that comes from our
