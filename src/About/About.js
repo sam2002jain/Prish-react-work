@@ -8,11 +8,9 @@ const About = () => {
   return (
     <>
       <section className="sec1">
-        <div className="headline-box">
-          <span className="box-animation">
-            <div>MORE THAN JUST ADVICE</div>
-          </span>
-        </div>
+      <div className="info">
+          <h1 className="text">About Us</h1>
+          </div>
       </section>
       <section className="sec2">
         <div className="row">

@@ -13,13 +13,19 @@ const Home = () => {
   const navigate = useNavigate();
   return (
     <>
+      <div className="info">
+        <h1 className="text">The largest community of CA firm</h1>
+        <button className="btn" onClick={() => navigate("/about")}>
+          Explore Now
+        </button>
+      </div>
       <section className="sec-1">
         <div className="content">
           <div className="para">
             <h1 className="heading">Who are we</h1>
             <h3 className="intro">
               A small accounting and bookkeeping firm provinding full survive to
-              small business
+              small business.
             </h3>
             <p>
               Our team will provide you with the confidence that comes from our
