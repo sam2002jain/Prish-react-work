@@ -10,6 +10,7 @@ import Footer from ".//Components/Footer";
 import Audit from ".//Audit/Audit";
 import Taxation from ".//Taxation/Taxation";
 import Bookkeeping from ".//Bookkeeping/Bookkeeping";
+import Corporate from ".//CorporatePage/Corporate";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
           <Route path="/audit" element={<Audit />} />
           <Route path="/taxation" element={<Taxation />} />
           <Route path="/bookkeeping" element={<Bookkeeping />} />
+          <Route path="/corporate" element={<Corporate />} />
         </Routes>
         <Footer />
       </BrowserRouter>

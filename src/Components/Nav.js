@@ -11,6 +11,9 @@ const Nav = () => {
       <div className="nav-content">
         <div className="nav">
           <ul className="list">
+            <Link to="/corporate">
+              Corporate <br /> Consultancy
+            </Link>
             <Link to="/bookkeeping"> Bookkeeping & Accounting</Link>
             <Link to="/taxation">Taxation</Link>
             <Link to="/audit">Audit</Link>
