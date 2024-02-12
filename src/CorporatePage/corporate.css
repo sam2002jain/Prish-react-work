@@ -5,8 +5,62 @@
   align-items: center;
   margin-top: 4rem;
 }
-.corporate-img img {
-  border-radius: 4px;
+.corporate-card-img img {
+  border-radius: 8px;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
   box-shadow: 1px 4px 10px rgb(160, 160, 160);
+  opacity: 1;
+  transition: 1s ease;
 }
+.corporate-card-img img:hover {
+  opacity: 0.5;
+  transition: 1s ease;
+}
+.corporate-card {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 2rem;
+  width: 450px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
 
+  background-color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.corporate-info {
+  align-items: center;
+  justify-content: center;
+  padding-left: 35px;
+  padding-right: 35px;
+  position: relative;
+  padding-bottom: 35px;
+}
+.corporate-sec-2-heading {
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+  align-items: center;
+  font-size: 38px;
+  color: rgb(32, 106, 143);
+  text-shadow: 2px 2px 5px rgb(176, 175, 175);
+  font-weight: 600;
+}
+.corporate-para {
+  width: 400px;
+}
+.corporate-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.corporate-heading {
+  font-size: 28px;
+  color: rgb(21, 70, 95);
+  cursor: pointer;
+  margin-bottom: -6px;
+}
