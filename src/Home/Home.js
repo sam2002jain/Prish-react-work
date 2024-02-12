@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <>
       <div className="info">
-        <h1 className="text">The largest community of CA firm</h1>
+        <h1 className="typo">The largest community of CA firm</h1>
         <button className="btn" onClick={() => navigate("/about")}>
           Explore Now
         </button>
