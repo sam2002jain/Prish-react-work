@@ -7,7 +7,7 @@ const Taxation = () => {
     <>
       <section className="taxation-sec-1">
       <div className="info">
-        <h1 className="text">Taxation</h1>
+        <h1 className="typo">Taxation</h1>
       </div>
         <div className="taxation-info-container">
           <div className="info-paragraphs">

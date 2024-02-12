@@ -6,7 +6,7 @@ const Reach = () => {
   return (
     <>
      <div className="info">
-          <h1 className="text">Reach Us</h1>
+          <h1 className="typo">Reach Us</h1>
           </div>
       <div className="contact-form">
         <h1 className="contact-form-heading">
