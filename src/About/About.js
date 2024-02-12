@@ -9,7 +9,7 @@ const About = () => {
     <>
       <section className="sec1">
       <div className="info">
-          <h1 className="text">About Us</h1>
+          <h1 className="typo">About Us</h1>
           </div>
       </section>
       <section className="sec2">
