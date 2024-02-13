@@ -5,6 +5,9 @@ import { IoLocationSharp, IoCall, IoMail } from "react-icons/io5";
 const Reach = () => {
   return (
     <>
+     <div className="info">
+          <h1 className="typo">Reach Us</h1>
+          </div>
       <div className="contact-form">
         <h1 className="contact-form-heading">
           Give us a call or drop a message

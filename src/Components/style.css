@@ -1,3 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Catamaran', sans-serif;
+    
+}
+/* styling the headline ticker */
+
+.headline-box {
+  width: 100%;
+  float: left;
+  margin: 0px auto 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0;
+  position: relative;
+  background: #0a446c;
+  margin-bottom: 0rem;
+}
+.box-animation {
+  color: #000;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 8px 0 8px 100%;
+  display: inline-block;
+  animation: headline 15s infinite linear;
+}
+@keyframes headline {
+  0% {
+    transform: translateX(10%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.headline-box span div {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0 30px;
+  width: auto;
+  display: inline-block;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
 /* styling the navbar */
 
 * {
@@ -6,48 +56,28 @@
 body {
   margin: 0%;
   padding: 0%;
-  font-family: sans-serif;
   background-color: rgb(250, 247, 247);
 }
-.container {
-  height: 95vh;
-  background-image: url("../Images/bgimg.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  box-shadow: 10px 5px 8px rgb(166, 166, 166);
-  animation: change 20s ease-in-out infinite;
-}
-@keyframes change {
-  0% {
-    background-image: url("../Images/bgimg.jpg");
-  }
-  25% {
-    background-image: url("../Images//bckimg2.jpg");
-  }
-  50% {
-    background-image: url("../Images/bgimg.jpg");
-  }
-  70% {
-    background-image: url("../Images/bckimg2.jpg");
-  }
-  100% {
-    background-image: url("../Images/bgimg.jpg");
-  }
-}
+
+
 .nav-content {
   display: flex;
   justify-content: space-between;
+  position: static;
   flex-direction: row;
   align-items: center;
   padding-right: 40px;
   border-bottom: 1px white solid;
   border-top: 1px solid white;
+  background-color: black;
   height: 7rem;
   z-index: 10;
 }
+
 .list a {
   align-items: center;
   text-align: center;
+  justify-content: flex-start;
   text-decoration: none;
   font-size: 22px;
   font-weight: 500;
@@ -57,6 +87,13 @@ body {
 .list a:hover {
   color: rgb(35, 155, 215);
 }
+
+.logo {
+  width: 12%;
+  margin-left: 2rem;
+}
+
+
 .info h1 {
   font-size: 48px;
   text-align: right;
@@ -67,6 +104,9 @@ body {
   display: block;
 }
 
+/*
+<<<<<<< HEAD
+*/
 .btn {
   padding: 14px 28px;
   color: rgb(250, 250, 250);
@@ -87,6 +127,9 @@ body {
 }
 
 /* styling the footer */
+/*
+>>>>>>> 603e7893fdf375d29dbeadb89392b63eee6aa6a9
+*/
 
 .whatsapp-icon {
   display: flex;
@@ -154,7 +197,7 @@ body {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -6px;
+  bottom: 0px;
   background-color: rgb(35, 155, 215);
   height: 2px;
   width: 40px;
@@ -162,10 +205,11 @@ body {
 }
 .follow-links a {
   padding: 10px;
-
   cursor: pointer;
 }
-
+/*
+<<<<<<< HEAD
+*/
 @media screen and (max-width: 768px) {
   .footer-sec {
     flex-direction: column;
@@ -211,3 +255,7 @@ body {
   .nav-content {
   }
 }
+/*
+=======
+>>>>>>> 603e7893fdf375d29dbeadb89392b63eee6aa6a9
+*/

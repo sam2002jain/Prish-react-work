@@ -5,6 +5,9 @@ import img from "../Images/img-7.jpeg";
 const Bookkeeping = () => {
   return (
     <>
+         <div className="info">
+          <h1 className="typo">Bookkeeping & Accounting</h1>
+          </div>
       <section className="bookkeeping-sec">
         <h1>BOOKKEEPING SERVICES IN DUBAI, UAE</h1>
         <div className="bookkeeping-info-container">

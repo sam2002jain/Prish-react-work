@@ -5,7 +5,7 @@ import About from ".//About/About";
 import Team from ".//Team/Team";
 import Blog from ".//Blog/Blog";
 import Reach from ".//Reach/Reach";
-import Nav from ".//Components/Nav";
+import Nav from ".//Components/Header";
 import Footer from ".//Components/Footer";
 import Audit from ".//Audit/Audit";
 import Taxation from ".//Taxation/Taxation";

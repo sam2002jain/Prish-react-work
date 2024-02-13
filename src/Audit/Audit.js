@@ -8,6 +8,9 @@ const Audit = () => {
     
     <>
       <section className="audit-sec-1">
+        <div className="info">
+          <h1 className="typo">Audit</h1>
+          </div>
         <div className="audit-info-container">
           <div className="info-paragraphs">
             <p className="text">
