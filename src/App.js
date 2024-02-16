@@ -11,6 +11,7 @@ import Audit from ".//Audit/Audit";
 import Taxation from ".//Taxation/Taxation";
 import Bookkeeping from ".//Bookkeeping/Bookkeeping";
 import Corporate from ".//CorporatePage/Corporate";
+import Corporation from ".//CorporationPages/Corporation";
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
           <Route path="/taxation" element={<Taxation />} />
           <Route path="/bookkeeping" element={<Bookkeeping />} />
           <Route path="/corporate" element={<Corporate />} />
+          <Route path="/corporation" element={<Corporation />} />
         </Routes>
         <Footer />
       </BrowserRouter>

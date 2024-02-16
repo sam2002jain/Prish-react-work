@@ -5,7 +5,6 @@ import icon3 from "../Images/icon3.png";
 import icon4 from "../Images/icon4.png";
 import icon5 from "../Images/icon5.png";
 import icon6 from "../Images/icon6.png";
-
 import icon2 from "../Images/icon2.png";
 import { Link } from "react-router-dom";
 
