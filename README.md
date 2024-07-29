@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is for freelancing work for a dubai based client. you can checkout my team work here: 
+(www.prishauditors.com)
+
 
 ## Available Scripts
 
